@@ -1,7 +1,8 @@
 * {
     font-family: Inter, sans-serif;
     font-size: 14px;
-    color:white;
+    color: white;
+
 }
 
 body {
@@ -10,12 +11,13 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+        margin: 0 auto;
 }
 
 main {
     background-color: hsl(0, 0%, 12%);
     width: 90%;
-    max-width:375px ;
+    max-width: 375px;
     border-radius: 3%;
     display: flex;
     flex-direction: column;
@@ -29,20 +31,30 @@ img {
     width: 30%;
     max-width: 125px;
 }
-h1{
-    font-size: 2em;
-    margin:0;
-}
-h2{
 
-    color:hsl(75, 94%, 57%);
+h1 {
+    font-size: 2em;
+    margin: 0;
 }
+
+h2 {
+
+    color: hsl(75, 94%, 57%);
+}
+
 button {
     text-transform: capitalize;
-    width:80%;
+    width: 80%;
     border: none;
     margin: 0.5em;
     padding: 1em;
     border-radius: 0.75em;
     background-color: hsl(0, 0%, 20%);
+}
+
+button:hover,
+button:focus {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    cursor: pointer;
 }
